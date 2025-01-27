@@ -44,9 +44,10 @@ installing the font:
 
 4. INSTALLING KVANTUM
    run: sudo apt install qt5-style-kvantum qt5-style-kvantum-themes
+   unzip Kvantum-theme.zip
    put the following kvantum folder into ~/.config
 
-5. CHANGING THEME, ICONS, CURSORS, FONTS AND WALLPAPER
+6. CHANGING THEME, ICONS, CURSORS, FONTS AND WALLPAPER
    open settings manager
 
     applying theme
@@ -62,7 +63,7 @@ installing the font:
     applying fonts
      select the fonts tab appearance settings
      select roboto regular as your default font
-     select Jetbrains nerd mono regular
+     select Jetbrains nerd font regular
 
     applying the cursor
 
@@ -79,7 +80,9 @@ installing the font:
      select your downloads folder
      select your preferred image
 
-6. CONFIGURING LIGHTDM LOGIN MANAGER
+   for these changes to have effect you must log out and back in
+
+8. CONFIGURING LIGHTDM LOGIN MANAGER
    open terminal
    run: cd .themes   
    run: sudo cp -R Everblush /usr/share/themes/
@@ -94,10 +97,12 @@ installing the font:
       enter your password
       change your theme to everblush
       change your icons to Nordzy-cyan-dark-MOD
-      change the image to your previously chosen wallpaper
+      change the image to your previously chosen wallpaper by dragging your wallpaper from a file manager window to the now open file chooser window
       change your user image if you want
+      save
+      close
 
-7. CONFIGURE XFCE4 PANEL
+9. CONFIGURE XFCE4 PANEL
    open terminal
    run: xfce4-panel --quit (your taskbar will be gone don't be shocked)
    run: pkill xfconfd
@@ -108,14 +113,16 @@ installing the font:
    move the ".profile" and ".Xresources" file from the home-config folder to your home folder
    unzip gtk-3.0-css.zip
    go to ~/config/gtk-3.0
-   move "gtk.css" from the gth-3.0-css folder to ~/config/gtk-3.0
+   move "gtk.css" from the gth-3.0-css folder to ~/.config/gtk-3.0
    unzip xfce4-config
    go to your .config folder
-   rename the xfce4 folder to "xfce-00"
+   rename the xfce4 folder to "xfce4-00"
    move xfce4 from xfce4-config to your .config folder
    go to the xfce4 folder
    if you have changed the default user name of the user then you must go to ~/.config/xfce4/panel
    open the genmon15.rc, genmon16.rc and genmon17.rc and in the first line change kali to the username
    do the same to whiskermenu-8.rc on the fourth line
    run: xfce4-panel &
+   it will probably prompt you to remove docklike or quit
+   remove docklike
    you can customise the panel by opening the panel application
