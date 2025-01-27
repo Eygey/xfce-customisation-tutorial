@@ -1,4 +1,4 @@
-this is a free github version of a xfce customisation tutorial for kali os
+this is a free github version of a xfce customisation tutorial for kali os so
 your install wil go from this:
 ![Screenshot_2025-01-27_20-32-16](https://github.com/user-attachments/assets/b860af41-5150-413d-86f2-0fd5a6f22b5c)
 to this:
