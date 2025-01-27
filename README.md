@@ -1,5 +1,7 @@
 this is a free github version of a xfce customisation tutorial for kali os
-the end product will look something like this
+your install wil go from this:
+![Screenshot_2025-01-27_20-32-16](https://github.com/user-attachments/assets/b860af41-5150-413d-86f2-0fd5a6f22b5c)
+to this:
 ![image](https://github.com/user-attachments/assets/c0a031c1-44e5-42e4-8525-34169accbeb9)
 
 
@@ -13,6 +15,7 @@ the end product will look something like this
    run: sudo apt install mugshot xfce4-terminal
      enter your password when needed
    (protip: add a -y at the end of your commands to confirm everything. If you don't you will have to press y at almost every command.)
+![Screenshot_2025-01-27_18-06-25](https://github.com/user-attachments/assets/61dd0881-589c-4c6a-9a0c-53208bb5a197)
 
 3. ICONS, CURSORS AND FONTS
    hatsune miku cursor credit to supermariofps: https://github.com/supermariofps/hatsune-miku-windows-linux-cursors
@@ -50,6 +53,13 @@ installing the font:
 6. CHANGING THEME, ICONS, CURSORS, FONTS AND WALLPAPER
    open settings manager
 
+    applying the cursor
+
+     open settings, select mouse and touchpad
+     select themes
+     select the miku cursor
+![Screenshot_2025-01-27_20-32-16](https://github.com/user-attachments/assets/2d0e938b-c4f1-40b3-a314-b3bfbd91b8d2)
+
     applying theme
 
    open appearance settings
@@ -65,12 +75,7 @@ installing the font:
      select roboto regular as your default font
      select Jetbrains nerd font regular
 
-    applying the cursor
 
-     open settings, select mouse and touchpad
-     select themes
-     select the miku cursor
-   
     applying the new wallpaper
 
      search for your preferred background, doesn't matter what, but preferably a dark one
@@ -81,6 +86,7 @@ installing the font:
      select your preferred image
 
    for these changes to have effect you must log out and back in
+![Screenshot_2025-01-27_20-40-06](https://github.com/user-attachments/assets/7e7b65b0-687a-448e-b6c1-bde109c6b0ad)
 
 8. CONFIGURING LIGHTDM LOGIN MANAGER
    open terminal
@@ -126,3 +132,4 @@ installing the font:
    it will probably prompt you to remove docklike or quit
    remove docklike
    you can customise the panel by opening the panel application
+![Screenshot_2025-01-26_20-40-25](https://github.com/user-attachments/assets/bec60f81-d862-49d3-b00a-5ff0f8de5ad0)
