@@ -79,16 +79,16 @@ installing the font:
      select your downloads folder
      select your preferred image
 
-   6. CONFIGURING LIGHTDM LOGIN MANAGER
-      open terminal
-      run: cd .themes   
-      run: sudo cp -R Everblush /usr/share/themes/
-      enter your password if needed
-      run: cd
-      run: cd .local
-      run: cd share
-      run: cd icons
-      run: sudo cp -Rv Nordzy-cyan-dark-MOD /usr/share/icons
+6. CONFIGURING LIGHTDM LOGIN MANAGER
+   open terminal
+   run: cd .themes   
+   run: sudo cp -R Everblush /usr/share/themes/
+   enter your password if needed
+   run: cd
+   run: cd .local
+   run: cd share
+   run: cd icons
+   run: sudo cp -Rv Nordzy-cyan-dark-MOD /usr/share/icons
         enter your password if needed (mild epillepsy warning)
       open lightdm GTK+ greeter settings
       enter your password
@@ -97,25 +97,25 @@ installing the font:
       change the image to your previously chosen wallpaper
       change your user image if you want
 
-   7. CONFIGURE XFCE4 PANEL
-      open terminal
-      run: xfce4-panel --quit (your taskbar will be gone don't be shocked)
-      run: pkill xfconfd
-      open file manager (press the windows key on your keyboard)
-      unzip home-config.zip
-      move its contents into your home folder
-      in the same folder find the ".profile" file and rename it ".profile-00" as to not conflict with our profile file
-      move the ".profile" and ".Xresources" file from the home-config folder to your home folder
-      unzip gtk-3.0-css.zip
-      go to ~/config/gtk-3.0
-      move "gtk.css" from the gth-3.0-css folder to ~/config/gtk-3.0
-      unzip xfce4-config
-      go to your .config folder
-      rename the xfce4 folder to "xfce-00"
-      move xfce4 from xfce4-config to your .config folder
-      go to the xfce4 folder
-      if you have changed the default user name of the user then you must go to ~/.config/xfce4/panel
-      open the genmon15.rc, genmon16.rc and genmon17.rc and in the first line change kali to the username
-      do the same to whiskermenu-8.rc on the fourth line
-      run: xfce4-panel &
-      you can customise the panel by opening the panel application
+7. CONFIGURE XFCE4 PANEL
+   open terminal
+   run: xfce4-panel --quit (your taskbar will be gone don't be shocked)
+   run: pkill xfconfd
+   open file manager (press the windows key on your keyboard)
+   unzip home-config.zip
+   move its contents into your home folder
+   in the same folder find the ".profile" file and rename it ".profile-00" as to not conflict with our profile file
+   move the ".profile" and ".Xresources" file from the home-config folder to your home folder
+   unzip gtk-3.0-css.zip
+   go to ~/config/gtk-3.0
+   move "gtk.css" from the gth-3.0-css folder to ~/config/gtk-3.0
+   unzip xfce4-config
+   go to your .config folder
+   rename the xfce4 folder to "xfce-00"
+   move xfce4 from xfce4-config to your .config folder
+   go to the xfce4 folder
+   if you have changed the default user name of the user then you must go to ~/.config/xfce4/panel
+   open the genmon15.rc, genmon16.rc and genmon17.rc and in the first line change kali to the username
+   do the same to whiskermenu-8.rc on the fourth line
+   run: xfce4-panel &
+   you can customise the panel by opening the panel application
