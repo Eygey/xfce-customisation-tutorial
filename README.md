@@ -133,3 +133,8 @@ installing the font:
    remove docklike
    you can customise the panel by opening the panel application
 ![Screenshot_2025-01-26_20-40-25](https://github.com/user-attachments/assets/bec60f81-d862-49d3-b00a-5ff0f8de5ad0)
+
+just FYI 
+this is a very free tutorial, you can basically change anything here, try a different icon pack, theme, background or cursor. It's all up to you and your preferences.
+
+have fun!
